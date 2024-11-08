@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        form {
+            max-width: 5000px;
+            margin: auto;
+            border: 5px solid rgb(7, 10, 27);
+            padding: 20px;
+            border-radius: 30px;
+        }
+        label {
+            display: block;
+            margin: 8px 0 4px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 2px solid #000000;
+            border-radius: 16px;
+        }
+        button {
+            padding: 10px 70px;
+            background-color: #4CAF50;
+            color: rgb(252, 246, 246);
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ad11d5;
+        }
+    </style>
+</head>
+<body bgcolor="Salmon">
+    <h1><center>Apply now: Software Engineering & Tech Job</center></h1>
+    <form>
+        <fieldset>
+            <legend style="background-color: aquamarine;">The form of Job Application</legend>
+            
+            
+            
+            <!-- The Section 1 is all the process is here now -->
+            
+            
+            
+            <h2><u># Section 1: Contact Information:</u></h2>
+            <label for="name">1.Enter your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <label for="dates">2.Enter your DOB:</label>
+            <input type="date" id="dates" placeholder="Enter your date of birth" required>
+            <br>
+            <br>
+            <label for="position">3.Enter your Gender:</label>
+            <select id="position" name="position" required>
+                <option value="">--Select Gender--</option>
+                <option value="Male">Male</option>
+                <option value="female">Female</option>
+                <option value="female">Other</option>
+            </select>                
+            <label for="number">4.Enter your Phone number:</label>
+            <input type="text" id="number" placeholder="10-digit mobile number" required>
+            <br>
+            <br>
+            <label for="email">5.Enter your Email id:</label>
+            <input type="text" id="email" placeholder="@gmail.com" required>
+            <br>
+            <br>
+            <label for="linkedin">6.Enter linkedln Profile:</label>
+            <input type="text" id="linkedin"  placeholder="https://linkedin.com/in/yourprofile" required>
+            <br>
+
+            
+            
+            <!-- The Section 2 is the process is here. -->
+            
+            
+            
+            <h2><u># Section 2: Job information:</u></h2>
+            <label for="position">1.Position Applied For:</label>
+            <select id="position" name="position" required>
+                <option value="">--Select a position--</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+                <option value="analyst">Analyst</option>
+                <option value="Chief technology officer (CTO)">Chief technology officer (CTO)</option>
+                <option value="Software engineer">Software engineer</option>
+                <option value="Frontend developer">Frontend developer</option>
+                <option value="Backend developer">Backend developer</option>
+                <option value="Web developer">Web developer</option>
+                
+            </select>
+            <br>
+            <br>
+            <label for="job">2.Enter Job reference Number(if applicable):</label>
+            <input type="text" id="job" placeholder=".........." required>
+            <br>
+            <br>
+            <label for="aboutJob">3.How did you hear about this job:</label>
+            <input type="text" id="aboutJob" placeholder=".........." required>
+            <br>
+
+            
+            
+            <!-- The Section 3 is all process is here now -->
+
+
+
+            <h2><u># Section 3: Summary/Objective:</u></h2>
+            <label for="email">. Please provide a brief summary/objective statement(max 50 word)</label>
+            <label for="coverLetter">Cover Letter:</label>
+            <textarea id="coverLetter" name="coverLetter" rows="5" required></textarea>
+            <br>
+
+
+
+            <!-- The Section 4 is all process is here now. -->
+
+
+
+            <h2><u># Section 4: Education:</u></h2>
+            <label for="">1.Select your Degree(s):</label>
+            <select id="position" name="position" required>
+                <option value="">--Select a Degree--</option>
+                <option value="Bachelor of Technology (B.Tech) in Computer Science and Engineering">Bachelor of Technology (B.Tech) in Computer Science and Engineering</option>
+                <option value="Bachelor of Engineering (B.E.) in Computer Science and Engineering">Bachelor of Engineering (B.E.) in Computer Science and Engineering</option>
+                <option value="Bachelor of Science (B.Sc.) in Computer Science">Bachelor of Science (B.Sc.) in Computer Science</option>
+                <option value="Bachelor of Computer Applications (BCA)">Bachelor of Computer Applications (BCA)</option>
+                <option value="B.Tech in Information Technology">B.Tech in Information Technology</option>
+                <option value="B.Sc. in Data Science">B.Sc. in Data Science</option>
+                <option value="B.Sc. in Artificial Intelligence and Machine Learning">B.Sc. in Artificial Intelligence and Machine Learning</option>
+                <option value="B.Tech in Artificial Intelligence and Data Science">B.Tech in Artificial Intelligence and Data Science</option>
+                <option value="B.Tech in Software Engineering">B.Tech in Software Engineering</option>
+                <option value="B.Tech in Cybersecurity">B.Tech in Cybersecurity</option>
+                <option value="Bachelor of Science in Software Engineering">Bachelor of Science in Software Engineering</option>
+                <option value="Bachelor of Technology in Internet of Things (IoT)">Bachelor of Technology in Internet of Things (IoT)</option>
+                <option value="Bachelor of Engineering in Computer Systems Engineering">Bachelor of Engineering in Computer Systems Engineering</option>
+                <option value="Bachelor of Information Technology (BIT)">Bachelor of Information Technology (BIT)</option>
+                <option value="Master of Technology (M.Tech) in Computer Science and Engineering">Master of Technology (M.Tech) in Computer Science and Engineering</option>
+                <option value="Master of Engineering (M.E.) in Computer Science and Engineering">Master of Engineering (M.E.) in Computer Science and Engineering</option>
+                <option value="Master of Science (M.Sc.) in Computer Science">Master of Science (M.Sc.) in Computer Science</option>
+                <option value="Master of Computer Applications (MCA)">Master of Computer Applications (MCA)</option>
+                <option value="M.Tech in Artificial Intelligence and Machine Learning">M.Tech in Artificial Intelligence and Machine Learning</option>
+                <option value="M.Tech in Data Science">M.Tech in Data Science</option>
+                <option value="M.Tech in Cybersecurity">M.Tech in Cybersecurity</option>
+                <option value="M.Sc. in Data Analytics">M.Sc. in Data Analytics</option>
+                <option value="M.Tech in Software Engineering">M.Tech in Software Engineering</option>
+                <option value="Master of Science in Information Technology (MSc.IT)">Master of Science in Information Technology (MSc.IT)</option>
+                <option value="Master of Science in Artificial Intelligence">Master of Science in Artificial Intelligence</option>
+                <option value="M.Tech in Cloud Computing">M.Tech in Cloud Computing</option>
+                <option value="M.Tech in Internet of Things (IoT)">M.Tech in Internet of Things (IoT)</option>
+                <option value="M.Tech in Blockchain Technology">M.Tech in Blockchain Technology</option>
+                <option value="Master of Technology in Robotics and Computer Vision">Master of Technology in Robotics and Computer Vision</option>
+                <option value="Integrated B.Tech + M.Tech in Computer Science Engineering">Integrated B.Tech + M.Tech in Computer Science Engineering</option>
+                <option value="Integrated B.Sc. + M.Sc. in Computer Science">Integrated B.Sc. + M.Sc. in Computer Science</option>
+                <option value="Integrated BCA + MCA">Integrated BCA + MCA</option>
+                <option value="Integrated B.Tech + MBA in Technology Management">Integrated B.Tech + MBA in Technology Management</option>
+                <option value="Dual Degree in B.Tech in Computer Science and M.Tech in Artificial Intelligence">Dual Degree in B.Tech in Computer Science and M.Tech in Artificial Intelligence</option>
+                <option value="Ph.D. in Computer Science and Engineering">Ph.D. in Computer Science and Engineering</option>
+                <option value="Ph.D. in Information Technology">Ph.D. in Information Technology</option>
+                <option value="Ph.D. in Artificial Intelligence and Machine Learning">Ph.D. in Artificial Intelligence and Machine Learning</option>
+                <option value="Ph.D. in Data Science">Ph.D. in Data Science</option>
+                <option value="Ph.D. in Cybersecurity">Ph.D. in Cybersecurity</option>
+                <option value="Ph.D. in Software Engineering">Ph.D. in Software Engineering</option>
+                <option value="Doctor of Engineering (D.Eng.) in Computer Science">Doctor of Engineering (D.Eng.) in Computer Science</option>
+                <option value="Postgraduate Diploma in Computer Science">Postgraduate Diploma in Computer Science</option>
+                <option value="Postgraduate Diploma in Artificial Intelligence">Postgraduate Diploma in Artificial Intelligence</option>
+                <option value="Graduate Certificate in Data Science">Graduate Certificate in Data Science</option>
+                <option value="Postgraduate Certificate in Cybersecurity">Postgraduate Certificate in Cybersecurity</option>
+                <option value="Advanced Diploma in Software Engineering">Advanced Diploma in Software Engineering</option>
+                
+            </select>
+            <br>
+            <label for="">2.Select your Semester:</label>
+            <select id="position" name="position" required>
+                <option value="">--Select a Semester--</option>
+                <option value="I">I</option>
+                <option value="II">II</option>
+                <option value="III">III</option>
+                <option value="IV">IV</option>
+                <option value="V">V</option>
+                <option value="VI">VI</option>
+                <option value="VII">VII</option>
+                <option value="VIII">VIII</option>
+
+            </select>    
+            
+            <label for="job">3.Enrollment Number:</label>
+            <input type="text" id="job" placeholder="Enter your Enrollment number" required>
+            <br>
+            <label for="dates">4.Expected Graducation Date:</label>
+            <input type="date" id="dates" placeholder="Enter your Expected Graducation Date" required>
+            <br>
+                <form id="addressForm">
+                    <label for="state">Select State:</label>
+                    <select id="state" name="state" onchange="updateDistricts()">
+                        <option value="">--Select State--</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+            
+                    <label for="district">Select District:</label>
+                    <select id="district" name="district">
+                        <option value="">--Select District--</option>
+                    </select>
+                </form>
+            
+                <script>
+                    const districts = {
+                        "Andhra Pradesh": ["Alluri Sitharama Raju", "Anakapalli","Ananthapuramu", "Annamayya", "Bapatla", "Chittoor", "Dr. B.R. Ambedkar Konaseema", "East Godavari","Eluru","Guntur","Kakinada","Kakinada","Kurnool","Nandyal", "Ntr","Palnadu","Parvathipuram Manyam","Prakasam","Sri Potti Sriramulu Nellore","Sri Sathya Sai","Srikakulam", "Tirupati","Visakhapatnam","Vizianagaram","West Godavari "],
+                        "Arunachal Pradesh": ["Anjaw", "Changlang", "Dibang Valley", "East Kameng", "East Siang", "Itanagar", "Kamle", "Kra Daadi", "Kurung Kumey",  "Leparada", "Biswanath"," Sonitpur", "Darrang", "Udalguri","Baksa", "Barpeta", "Bongaigaon", "Cachar", "Chirang, Dhubri", "Goalpara", "Kamrup", "Kamrup Metropolitan", "South Salmara-Mankachar",  "East Karbi Anglong", "Nagaon", "Hojai", "West Karbi Anglong", "Dima Hasao", "Morigaon"],
+                        "Assam": ["Biswanath", "Charaideo", "Dibrugarh", "Dhemaji", "Golaghat", "Jorhat", "Lakhimpur", "Majuli", "Sivasagar",  "Tinsukia"],
+                        "Bihar": [ "West Champaran", "Siwan", "Vaishali", "Saran", "Supaul", "Sitamarhi", "Sheikhpura", "Saharsa", "Patna", "Nawada", "Nalanda", "Kishanganj", "Gopalganj", "Buxar", "Bhojpur", "Aurangabad", "Araria", "Arwal", "Banka", "Muzaffarpur", "Darbhanga", "East Champaran"],
+                        "Chhattisgarh": ["Balod", "Balodabazar Bhatapara", "Balrampur", "Bastar", "Bemetara", "Bijapur", "Bilaspur", "Dantewada", "Dhamtari", "Durg", "Gariaband", "Gaurela-Pendra-Marwahi", "Janjgir-Champa", "Jashpur", "Kanker", "Kawardha", "Kondagaon", "Korba", "Korea", "Mahasamund", "Mungeli", "Narayanpur", "Raigarh", "Raipur", "Rajnandgaon", "Sakti", "Sukma", "Surajpur", "Surguja"],
+                        "Goa": ["Panaji (Capital City)", "Mapusa", "Bicholim", "Sattari", "Tiswadi", "Pernem", "Bardez",  "Subdivisions", "include Ponda", "Mormugao"," Margao", "Quepem",  "Dharbandora", "Talukas","include Ponda", "Mormugao", "Salcete", "Quepem", "Canacona", "Sanguem",  "Dharbandora"],
+                        "Gujarat": ["Ahmedabad", "Amreli", "Anand", "Arvalli", "Banaskantha", "Bharuch", "Bhavnagar", "Botad", "Chhotaudepur", "Dahod","Dangs", "Devbhumi Dwarka", "Gandhinagar", "Gir Somnath", "Jamnagar", "Junagadh", "Kachchh", "Kheda", "Mahesana", "Mahisagar"],
+                        "Haryana": ["Ambala", "Bhiwani", "Charkhi Dadri", "Faridabad", "Fatehabad", "Gurugram", "Hisar", "Jhajjar", "Jind", "Kaithal", "Karnal", "Kurukshetra", "Mahendragarh", "Nuh", "Palwal", "Panchkula", "Panipat", "Rewari", "Rohtak", "Sirsa", "Sonipat",  "Yamunanagar"],
+                        "Himachal Pradesh": ["Bilaspur", "Chamba", "Hamirpur", "Kangra", "Kinnaur", "Kullu", "Lahaul", "Spiti", "Mandi", "Shimla", "Sirmaur", "Solan", "Una"],
+                        "Jharkhand": ["Bokaro", "Chatra", "Deoghar", " Dhanbad ", "Dumka", "East-Singhbhum", "Garhwa", "Giridih", "Godda", "Gumla", "Hazaribagh", "Jamtara", "Khunti", "Koderma", "Latehar", "Lohardaga", "Pakur", "Palamu", "Ramgarh", "Ranchi", "Sahibganj", "Saraikela-Kharsawan", "Simdega",  "West-Singhbhum"],
+                        "Karnataka": [" Davanagere", "Kodagu", "Mysuru", "Vijayanagara", "Bidar", "Ballary", "Belagavi", "Mandya", "Kolara", "Hassan", "Bengaluru Rural", "Dakshina Kannada", "Chamarajanagara", "Ramanagara", "Haveri", "Raichur"," Udupi"],
+                        "Kerala": ["Alappuzha", "Ernakulam", "Idukki", "Kannur", "Kasaragod", "Kollam", "Kottayam", "Kozhikode", "Malappuram", "Palakkad", "Pathanamthitta", "Thiruvananthapuram", "Thrissur",  "Wayanad"],
+                        "Madhya Pradesh": ["Bhopal", "Indore", "Gwalior"],
+                        "Maharashtra": ["Ahmednagar", "Akola"," Amravati", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Chhatrapati Sambhajinagar", "Dharashiv", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur"," Latur", "Mumbai", "Mumbai Suburban", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Palghar", "Parbhani"],
+                        "Manipur": ["Agar-Malwa"," Alirajpur", "Anuppur", "Ashoknagar", "Balaghat", "Barwani", "Betul", "Bhind", "Bhopal", "Burhanpur", "Chhatarpur", "Chhindwara", "Damoh", "Datia", "Dewas", "Dhar", "Dindori", "Guna", "Gwalior", "Harda"],
+                        "Meghalaya": ["East Garo Hills","West Garo Hills","North Garo Hills","South Garo Hills","South West Garo Hills","East Khasi Hills","West Khasi Hills","South West Khasi Hills","Ri Bhoi","East Jaintia Hills","West Jaintia Hills","Eastern West", "Khasi Hills"],
+                        "Mizoram": ["Aizawl","Lunglei","Serchhip","Champhai","Kolasib","Mamit","Lawngtlai","Saiha","Hnahthial","Saitual","Khawzawl"],
+                        "Nagaland": ["Dimapur","Kiphire","Kohima","Longleng","Mokokchung","Mon","Noklak","Peren","Phek","Tuensang","Tseminyu","Wokha","Zunheboto","Chümoukedima","Niuland","Shamator"],
+                        "Odisha": ["Angul","Balangir","Balasore (Baleswar)","Bargarh","Bhadrak","Boudh","Cuttack","Deogarh","Dhenkanal","Gajapati","Ganjam","Jagatsinghpur","Jajpur","Jharsuguda","Kalahandi","Kandhamal","Kendrapara","Kendujhar (Keonjhar)","Khordha","Koraput","Malkangiri","Mayurbhanj","Nabarangpur","Nayagarh","Nuapada","Puri","Rayagada","Sambalpur","Subarnapur (Sonepur)","Sundargarh"],
+                        "Punjab": ["Amritsar","Barnala","Bathinda","Faridkot","Fatehgarh Sahib","Fazilka","Ferozepur","Gurdaspur","Hoshiarpur","Jalandhar","Kapurthala","Ludhiana","Malerkotla","Mansa","Moga","Mohali (SAS Nagar)","Muktsar","Pathankot","Patiala","Rupnagar (Ropar)","Sangrur","Shaheed", "Bhagat Singh Nagar (Nawanshahr)", "Tarn Taran"],
+                        "Rajasthan": ["Ajmer","Alwar","Banswara","Baran","Barmer","Bharatpur","Bhilwara","Bikaner","Bundi","Chittorgarh","Churu","Dausa","Dholpur","Dungarpur","Hanumangarh","Jaipur","Jaisalmer","Jalore","Jhalawar","Jhunjhunu","Jodhpur","Karauli","Kota","Nagaur","Pali","Pratapgarh","Rajsamand","Sawai", "Madhopur","Sikar","Sirohi","Sri Ganganagar","Tonk","Udaipur","Shahpura","Anupgarh","Balotra","Beawar","Deedwana-Kuchaman","Dudu","Gangapur City","Jaipur Rural","Jodhpur", "Rural","Kotputli-Behror","Khairthal-Tijara","Neem Ka Thana","Phalodi","Salumber","Sanchore","Shahpura-Bhilwara","Sujangarh"],
+                        "Sikkim": ["Gangtok","Pakkeong","Mangan","Namchi","Gyalshing","Soreng"],
+                        "Tamil Nadu": ["Ariyalur","Chengalpattu","Chennai","Coimbatore","Cuddalore","Dharmapuri","Dindigul","Erode","Kallakurichi","Kancheepuram","Karur","Krishnagiri","Madurai","Mayiladuthurai","Nagapattinam","Namakkal","Nilgiris","Perambalur","Pudukottai","Ramanathapuram","Ranipet","Salem","Sivaganga","Tenkasi","Thanjavur","Theni","Thiruvallur","Thiruvarur","Tuticorin (Thoothukudi)","Tiruchirappalli","Tirunelveli","Tirupattur","Tiruppur","Tiruvannamalai","Vellore","Villupuram","Virudhunagar","Kanyakumari"],
+                        "Telangana": ["Adilabad","Bhadradri","Kothagudem","Hanamkonda","Hyderabad","Jagtial","Jangaon","Jayashankar Bhupalpally","Jogulamba Gadwal","Kamareddy","Karimnagar","Khammam","Kumuram Bheem Asifabad","Mahabubabad","Mahabubnagar","Mancherial","Medak","Medchal–Malkajgiri","Mulugu","Nagarkurnool","Nalgonda","Narayanpet","Nirmal","Nizamabad","Peddapalli","Rajanna Sircilla","Rangareddy","Sangareddy","Siddipet","Suryapet","Vikarabad","Wanaparthy","Warangal","Yadadri","Bhuvanagiri"],
+                        "Tripura": ["Agartala","Dhalai","Gomati","North Tripura","Sepahijala","South Tripura","Unakoti","West Tripura"],
+                        "Uttar Pradesh": ["Agra","Aligarh","Ambedkar Nagar","Amethi","Auraiya","Ayodhya","Azamgarh","Badaun","Baghpat","Bahraich","Balrampur","Banda","Barabanki","Bareilly","Basti","Bijnor","Budaun","Bulandshahr","Chandauli","Chitrakoot","Deoria","Etah","Etawah","Faizabad","Farrukhabad","Fatehpur","Firozabad","Gautam Buddha Nagar","Ghaziabad","Ghazipur","Gonda","Gorakhpur","Hamirpur","Hapurg","Hardoi","Hathras","Jalaun","Jaunpur","Jhansi","Kanshiram Nagar","Kaushambi","Kheri (Lakhimpur Kheri)","Lalitpur","Lucknow","Maharajganj","Mahoba","Mainpuri","Mathura","Mau","Mirzapur","Moradabad","Muzaffarnagar","Pilibhit","Pratapgarh","Rae Bareli","Rampur","Saharanpur","Sambhal","Sant Ravidas Nagar","Shahjahanpur","Shrawasti","Siddharthnagar","Sitapur","Sonbhadra","Sultanpur","Unnao","Varanasi","Banda","Basti","Deoria","Farrukhabad","Jhansi","Kanshiram Nagar","Kaushambi","Kheri (Lakhimpur Kheri)"],
+                        "Uttarakhand": ["Almora","Bageshwar","Chamoli","Champawat","Dehradun","Haridwar","Nainital","Pauri Garhwal","Pithoragarh","Rudraprayag","Tehri Garhwal","Udham Singh Nagar","Uttarkashi"],
+                        "West Bengal": ["Alipurduar","Bankura","Bardhaman (Barddhaman)","Birbhum","Cooch Behar","Dakshin Dinajpur","Darjeeling","Hooghly","Howrah","Jalpaiguri","Jhargram","Malda","Murshidabad","Nadia","North 24 Parganas","Purba Medinipur","Purulia","South 24 Parganas","Srirampore","Siliguri","Kolkata (Calcutta)","Uttar Dinajpur","West Burdwan (Paschim Bardhaman)"]
+                    };
+            
+                    function updateDistricts() {
+                        const stateSelect = document.getElementById("state");
+                        const districtSelect = document.getElementById("district");
+                        const selectedState = stateSelect.value;
+            
+                        // Clear previous district options
+                        districtSelect.innerHTML = '<option value="">--Select District--</option>';
+            
+                        // Populate districts based on selected state
+                        if (selectedState && districts[selectedState]) {
+                            districts[selectedState].forEach(district => {
+                                const option = document.createElement("option");
+                                option.value = district;
+                                option.textContent = district;
+                                districtSelect.appendChild(option);
+                            });
+                        }
+                    }
+                </script>
+    
+            
+    <br>
+    <br>
+        <label for="email">Enter your Collge/University name:</label>
+        <input type="text" id="email" placeholder="College/University......." required>
+        <br>
+        <br>
+        <label for="email">Enter your  revelent coursework:</label>
+        <input type="text" id="email" placeholder=".........." required>
+        <br>
+        <br>
+        <p>2.Click on the "Choose File" button to upload a Certification/licenses file:</p>
+        <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+        <br>
+
+
+
+
+
+        
+        <!-- The Section 5 is all Process is here now -->
+        
+
+        
+        
+        
+        
+        <h2><u># Section 5: Work Experience:</u></h2>
+        <label for="email">1.Enter  job title:</label>
+        <input type="text" id="email" placeholder="............." required>
+        <br>
+        <br>
+        <label for="company">2.Enter Company name :</label>
+        <select name="company" id="company"  onchange="updateDistricts()">
+            <option value="">--Select company--</option>
+            <option value="Microsoft">Microsoft</option>
+            <option value="Apple">Apple</option>
+            <option value="Google">Google</option>
+            <option value="Adode">Adobe</option>
+            <option value="Oracle">Oracle</option>
+            <option value="Salesforce">Salesforce</option>
+            <option value="IBM">IBM</option>
+            <option value="SAP">SAP</option>
+            <option value="Intuit">Intuit</option>
+            <option value="Read hat">Red Hat</option>
+            <option value="VMware">VMware</option>
+            <option value="Atlassian">Atlassian</option>
+            <option value="Slack">Slack</option>
+            <option value="Dropbox">Dropbox</option>
+            <option value="Zoom">Zoom</option>
+            <option value="Hubspot">HubSpot</option>
+            <option value="Shopify">Shopify</option>
+            <option value="GitHub">GitHub</option>
+            <option value="MongoDB">MongoDB</option>
+            <option value="Twilio">Twilio</option>
+        </select>
+        <br>
+        <br>
+        <label for="dates">3.Enter your Date of Employment</label>
+        <input type="date" id="dates" placeholder="Enter your Date of Birth" required>
+        <br>
+        <br>
+        <label for="coverLetter">4.Brief Job Description::</label>
+        <textarea id="coverLetter" name="coverLetter" cols="15" rows="3" placeholder="Enter job Description...."required></textarea>
+        <br>
+        <br>
+        <div class="form-group">
+            <label for="achievement">5.Describe Your Achievement</label>
+            <textarea id="achievement" name="achievement" cols="40" rows="3" placeholder="Describe an achievement related to software development or projects..." required></textarea>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="skills">6.Key Skills Used:</label>
+            <input type="text" id="skills" name="skills" placeholder="E.g., Java, Python, SQL..." required>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="portfolio">7.Link to Portfolio or Project (optional):</label>
+            <input type="url" id="portfolio" name="portfolio" placeholder="https://yourportfolio.com">
+        </div>
+
+
+
+
+       
+       
+        <!-- The Section 6 is all Process is here now. -->
+
+
+
+
+
+        <h2><u># Section 6: Skills:</u></h2>
+        <h3>Technical skill.</h3>
+        <label for="company">1.Enter Programming languages:</label>
+        <select name="company" id="company"  onchange="updateDistricts()">
+            <option value="">--Select Programming language--</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+            <option value="PHP">PHP</option>
+        </select> 
+        <br>
+        <br> 
+        <label for="company">2.Enter Software proficiency:</label>
+        <select name="company" id="company"  onchange="updateDistricts()">
+            <option value="">--Select Software proficiency--</option>
+            <option value="Office and Productivity Software">Office and Productivity Software</option>
+            <option value="rogramming and Development Tools">rogramming and Development Tools</option>
+            <option value="Data Science and Analytics Software">Data Science and Analytics Software</option>
+            <option value=" Graphic Design and Multimedia Software"> Graphic Design and Multimedia Software</option>
+            <option value="Web Development and Design Software">Web Development and Design Software</option>
+            <option value="Cybersecurity and Network Software">Cybersecurity and Network Software</option>
+            <option value="Operating Systems and Virtualization">Operating Systems and Virtualization</option>
+            <option value="Project Management and Collaboration Tools">Project Management and Collaboration Tools</option>
+            <option value="Customer Relationship Management (CRM) Software"> Customer Relationship Management (CRM) Software</option>
+            <option value="Accounting and Financial Software"> Accounting and Financial Software</option>
+            <option value="Human Resources and Payroll Software">Human Resources and Payroll Software</option>
+        </select>  
+        <br>
+        <br>
+        <label for="company">3.Enter other Technical Skills:</label>
+        <select name="company" id="company"  onchange="updateDistricts()">
+            <option value="">--Select other Technical Skills--</option>
+            <option value=". Programming & Development">. Programming & Development</option>
+            <option value="rogramming and Development Tools">rogramming and Development Tools</option>
+            <option value=". Data Science & Analytics">. Data Science & Analytics</option>
+            <option value="Cloud Computing"> Cloud Computing</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+            <option value="Networking & IT Support">Networking & IT Support</option>
+            <option value=". Database Management">. Database Management</option>
+            <option value="Electrical Engineering & Embedded Systems">Electrical Engineering & Embedded Systems</option>
+        </select> 
+        <br>
+        <h3>Soft Skills.</h3>
+        <label for="email">1.Enter your Communication:</label>
+        <br>
+        <input type="radio" name="radio3" id="radio3">
+        <label for="radoi3">Average</label>
+        <br>
+        <input type="radio" name="radio3" id="radio3">
+        <label for="radoi3">Good</label>
+        <br>
+        <input type="radio" name="radio3" id="radio3">
+        <label for="radoi3">Very Good</label>
+        <br>
+        <input type="radio" name="radio3" id="radio3">
+        <label for="radoi3">Excellent</label>
+        <br>
+        <input type="radio" name="radio3" id="radio3">
+        <label for="radoi3">Outstanding</label>
+        <br>
+        <label for="company">2.Enter your Teamwork:</label>
+        <select name="company" id="company"  onchange="updateDistricts()">
+            <option value="">--Select teamwork--</option>
+            <option value="Communication">Communication</option>
+            <option value=" Collaboration"> Collaboration</option>
+            <option value="Trust and Reliability">Trust and Reliability</option>
+            <option value="Adaptability and Flexibility"> Adaptability and Flexibility</option>
+            <option value=" Accountability and Responsibility">Accountability and Responsibility </option>
+            <option value="  Problem Solving and Decision-Making">  Problem Solving and Decision-Making</option>
+            <option value=". Commitment and Engagement">. Commitment and Engagement</option>
+            <option value="Leadership and Support">Leadership and Support</option>
+        </select> 
+        <br>
+        <br>
+        <label for="company">3.Enter your Soft Skills:</label>
+        <select name="company" id="company"  onchange="updateDistricts()">
+            <option value="">--Select Soft Skills--</option>
+            <option value="Communication Skills">Communication Skills</option>
+            <option value=" Emotional Intelligence (EQ)">  Emotional Intelligence (EQ)</option>
+            <option value=" Problem-Solving"> Problem-Solving</option>
+            <option value="Adaptability and Flexibility"> Adaptability and Flexibility</option>
+            <option value=" Time Management and Organization">Time Management and Organization </option>
+            <option value="Critical Thinking"> Critical Thinking</option>
+            <option value=". Leadership">Leadership</option>
+        </select> 
+
+
+
+        
+        
+        
+        
+        <!-- The Section 7 is all process is here now. -->
+
+
+        
+        
+        
+        <h2><u># Section 7: Reference:</u></h2>
+        <h3>Please provide at least 2 professional refernces.</h3>
+        <label for="email">1.Name:</label>
+        <input type="text" id="email" placeholder="Enter name references" required>
+        <br>
+        <br>
+        <label for="email">2.Title:</label>
+        <input type="text" id="email" placeholder="Enter title references." required>
+        <br>
+        <br>
+        <label for="email">3.Company name:</label>
+        <input type="text" id="email" placeholder="Enter company name reference" required>
+        <br>
+        <br>
+        <label for="email">4.Contact information(Phone Number):</label>
+        <input type="text" id="email" placeholder="10-digit mobile number" required>
+        <br>
+        
+        
+        
+        
+        
+        
+        <!-- The Section 8 is all process is here now. -->
+        
+
+
+
+        
+        <h2><u># Section 8: Additional Information:</u></h2>
+        <h3>Is there any additional information you'd like to provide?</h3>
+        <textarea name="add" id="add" cols="50" rows="3" placeholder="Enter any additional Infromation........"></textarea>
+        <br>
+        <br>
+        
+        
+        
+
+        
+        
+        <!-- The Section 9 is all Process is here now. -->
+
+
+
+
+
+
+        <div class="form-container">
+            <h2><u># Section 9:Software Engineering Job Experience:</u></h2>
+            <form id="jobExperienceForm" action="/submit" method="post">
+                
+                <!-- Job Title -->
+                <div class="form-group">
+                    <label for="jobTitle">1.Job Title</label>
+                    <input type="text" id="jobTitle" name="jobTitle" required>
+                </div>
+                <br>
+                <!-- Company Name -->
+                <div class="form-group">
+                    <label for="companyName">2.Company Name</label>
+                    <input type="text" id="companyName" name="companyName" required>
+                </div>
+                <br>
+                <!-- Employment Duration -->
+                <div class="form-group">
+                    <label for="employmentDuration">3.Employment Duration</label>
+                    <input type="text" id="employmentDuration" name="employmentDuration" placeholder="e.g., Jan 2020 - Dec 2023" required>
+                </div>
+                <br>
+                <!-- Skills -->
+                <div class="form-group">
+                    <label for="skills">4.Skills Used</label>
+                    <textarea id="skills" name="skills" cols="30" rows="2" placeholder="List programming languages, frameworks, tools, etc." required></textarea>
+                </div>
+                <br>
+                <!-- Responsibilities -->
+                <div class="form-group">
+                    <label for="responsibilities">5.Job Responsibilities</label>
+                    <textarea id="responsibilities" name="responsibilities" cols="30" rows="2" placeholder="Describe your responsibilities in this role" required></textarea>
+                </div>
+                <br>
+                <label for="experience">6.Years of Experience:</label>
+                <input type="number" id="experience" name="experience" min="0" max="50" required>
+                <br>
+                
+                
+                
+                
+                <!-- The Section 10 is all Process is here now. -->
+                
+                
+                
+                <h2><u>Section 10: Certification:</u></h2>
+                <h3>I certify  that the information provided is true and accurate.</h3>
+                <div class="form-container">
+                    <h4>1.Upload Your Signature</43>
+                    <form id="signatureForm">
+                        
+                        <!-- Signature File Input -->
+                        <div class="form-group">
+                            <label for="signatureUpload">Choose Signature Image:</label>
+                            <input type="file" id="signatureUpload" accept="image/*" required>
+                        </div>
+                
+                        <!-- Display Signature Preview -->
+                        <img id="signaturePreview" alt="Signature Preview">
+                        
+                    </form>
+                </div>
+                
+                <script>
+                    document.getElementById("signatureUpload").addEventListener("change", function(event) {
+                        const file = event.target.files[0];
+                        if (file) {
+                            const reader = new FileReader();
+                            reader.onload = function(e) {
+                                const preview = document.getElementById("signaturePreview");
+                                preview.src = e.target.result;
+                                preview.style.display = "block";
+                            };
+                            reader.readAsDataURL(file);
+                        }
+                    });
+                </script>
+                <label for="dates">2.Enter  Date:</label>
+                <input type="date" id="dates" placeholder="Enter your Date of Birth" required>
+                <br>
+                <button type="submit">Submit Application</button>
+    </fieldset>
+    </form>
+</body>
+</html>
